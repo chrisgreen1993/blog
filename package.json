@@ -23,5 +23,8 @@
 		"remark-github": "^10.0.1",
 		"svelte": "^3.34.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"modern-normalize": "^1.1.0"
+	}
 }
