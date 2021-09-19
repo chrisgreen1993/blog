@@ -18,7 +18,5 @@ module.exports = {
 		],
 		require('remark-abbr')
 	],
-	rehypePlugins: [
-		require('rehype-slug')
-	]
+	rehypePlugins: [require('rehype-slug')]
 };

@@ -1,6 +1,6 @@
 <script>
-  import 'modern-normalize/modern-normalize.css'
-  import '../global.css'
+	import 'modern-normalize/modern-normalize.css';
+	import '../global.css';
 </script>
 
-<slot></slot>
+<slot />

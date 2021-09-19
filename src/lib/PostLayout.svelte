@@ -10,5 +10,5 @@
 <section>
 	<a href="/">Home</a>
 	<p>{date.slice(0, 10)}</p>
-	<slot></slot>
+	<slot />
 </section>
