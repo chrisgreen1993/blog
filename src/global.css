@@ -1,0 +1,91 @@
+:root {
+	--font-heading: 'Space Mono', monospace;
+	--font-body: 'Space Mono', monospace;
+
+	--text-base-size: 1rem; 
+
+	--line-height-body: 1.75;
+	--line-height-heading: 1.3;
+
+	--text-scale-ratio: 1.250;
+
+	--text-md: calc(var(--text-base-size) * var(--text-scale-ratio));
+	--text-lg: calc(var(--text-scale-ratio) * var(--text-md)); 
+	--text-xl: calc(var(--text-scale-ratio) * var(--text-lg)); 
+	--text-xxl: calc(var(--text-scale-ratio) * var(--text-xl)); 
+	--text-xxxl: calc(var(--text-scale-ratio) * var(--text-xxl));
+
+	--space-unit: 1rem; 
+	--space-xs: calc(0.25 * var(--space-unit));
+	--space-sm: calc(0.5 * var(--space-unit)); 
+	--space-md: calc(1.5 * var(--space-unit)); 
+	--space-lg: calc(2 * var(--space-unit)); 
+	--space-xl: calc(2.5 * var(--space-unit)); 
+
+	--color-background: #232533;
+	--color-text: #c3c6e2;
+	--color-primary: #65c78f;
+
+	--max-width: 850px;
+
+	font-size: var(--text-base-size);
+}
+
+body { 
+	font-family: var(--font-body);
+	line-height: var(--line-height-body);
+	max-width: var(--max-width);
+	padding: var(--space-md);
+	background-color: var(--color-background);
+	color: var(--color-text);
+	margin: 0 auto;
+	font-variant-ligatures: no-common-ligatures; /* space mono has a weird fi ligature */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+	line-height: var(--line-height-heading);
+	margin: var(--space-lg) 0;
+}
+
+h1 {
+	font-size: var(--text-xxxl);
+}
+
+h2 {
+	font-size: var(--text-xxl);
+}
+
+h3 {
+	font-size: var(--text-xl);
+}
+
+h4 {
+	font-size: var(--text-lg);
+}
+
+h5 {
+	font-size: var(--text-md);
+}
+
+p {
+	font-weight: 300;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style-type: "* ";
+}
+
+a {
+	color: var(--color-primary);
+}
+
+@media (min-width: 850px) {
+	:root {
+		--text-base-size: 1.25rem;
+	}
+}
