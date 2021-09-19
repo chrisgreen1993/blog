@@ -19,12 +19,6 @@ module.exports = {
 		require('remark-abbr')
 	],
 	rehypePlugins: [
-		require('rehype-slug'),
-		[
-			require('rehype-autolink-headings'),
-			{
-				behavior: 'wrap'
-			}
-		]
+		require('rehype-slug')
 	]
 };
