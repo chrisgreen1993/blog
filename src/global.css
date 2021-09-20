@@ -26,7 +26,7 @@
 	--color-text: #c3c6e2;
 	--color-primary: #65c78f;
 
-	--max-width: 850px;
+	--max-width: 50rem;
 
 	font-size: var(--text-base-size);
 }
@@ -35,7 +35,7 @@ body {
 	font-family: var(--font-body);
 	line-height: var(--line-height-body);
 	max-width: var(--max-width);
-	padding: var(--space-md);
+	padding: var(--space-lg);
 	background-color: var(--color-background);
 	color: var(--color-text);
 	margin: 0 auto;
@@ -51,6 +51,18 @@ h6 {
 	font-family: var(--font-heading);
 	line-height: var(--line-height-heading);
 	margin: var(--space-lg) 0;
+}
+
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+	content: '>';
+	position: absolute;
+	padding-right: var(--space-xs);
+	transform: translateX(-100%);
 }
 
 h1 {
@@ -89,7 +101,7 @@ a {
 	color: var(--color-primary);
 }
 
-@media (min-width: 850px) {
+@media screen and (min-width: 1000px) {
 	:root {
 		--text-base-size: 1.25rem;
 	}

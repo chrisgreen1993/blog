@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section>
-	<a href="/">Home</a>
-	<p>{date.slice(0, 10)}</p>
+	<a href="/">&lt; Home</a>
+	<p>Posted: {date.slice(0, 10)}</p>
 	<slot />
 </section>

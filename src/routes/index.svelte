@@ -13,10 +13,15 @@
 </script>
 
 <script>
+	import BlinkingCaret from '$lib/BlinkingCaret.svelte'
 	export let posts;
 </script>
 
-<h1>chrisgreen.codes</h1>
+<svelte:head>
+	<title>chrisgreen.codes</title>
+</svelte:head>
+
+<h1>chrisgreen.codes<BlinkingCaret /></h1>
 <p>Hey there! I'm Chris, a software engineer based in Edinburgh.</p>
 
 <ul>
