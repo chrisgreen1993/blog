@@ -1,13 +1,16 @@
 <script context="module">
+	import { removeExtension, formatISO8601 } from '$lib/utils'
+
 	export async function load() {
 		const posts = import.meta.globEager(`./*.svelte.md`);
 		const sortedPosts = Object.entries(posts)
-			.map(([name, { metadata }]) => ({
+			.map(([filename, { metadata }]) => ({
 				...metadata,
-				url: name.slice(0, -10),
-				date: new Date(metadata.date)
+				url: removeExtension(filename, '.svelte.md'),
+				date: metadata.date
 			}))
-			.sort((a, b) => b.date - a.date);
+			.filter(({ draft }) => !draft)
+			.sort((a, b) => -a.date.localeCompare(b.date));
 		return { props: { posts: sortedPosts } };
 	}
 </script>
@@ -22,16 +25,25 @@
 </svelte:head>
 
 <h1>chrisgreen.codes<BlinkingCaret /></h1>
-<p>Hey there! I'm Chris, a software engineer based in Edinburgh.</p>
+<p>
+	Hey there! I'm Chris, a software engineer based in Edinburgh.
+</p>
 
+{#if posts.length}
+	<h2>Posts</h2>
+{/if}
 <ul>
 	{#each posts as { url, title, date }}
-		<li>{date.toISOString().slice(0, 10)} - <a href={url}>{title}</a></li>
+		<li>{formatISO8601(date)} - <a href={url}>{title}</a></li>
 	{/each}
 </ul>
 
 <style>
 	h1 {
 		color: var(--color-primary);
+	}
+
+	h2 {
+		font-size: var(--text-xl);
 	}
 </style>

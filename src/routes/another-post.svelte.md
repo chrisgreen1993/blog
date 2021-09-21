@@ -1,8 +1,7 @@
 ---
 title: Another Post
 date: 2021-01-01
+draft: true
 ---
-
-# It's another post!!
 
 Here it is

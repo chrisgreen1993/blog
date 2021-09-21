@@ -3,4 +3,12 @@
 	import '../global.css';
 </script>
 
-<slot />
+<main>
+	<slot />
+</main>
+
+<style>
+	main {
+		padding: var(--space-xl);
+	}
+</style>

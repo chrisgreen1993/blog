@@ -1,9 +1,8 @@
 ---
-title: testing
+title: Markdown Test Page 
 date: 2021-02-02
+draft: false
 ---
-
-# Markdown Test Page
 
 - [Headings](#Headings)
 - [Paragraphs](#Paragraphs)

@@ -3,7 +3,7 @@ const path = require('path');
 const postLayoutPath = path.join(__dirname, './src/lib/PostLayout.svelte');
 
 module.exports = {
-	extensions: ['.svelte.md', '.md', '.svx'],
+	extensions: ['.svelte.md'],
 	layout: postLayoutPath,
 	smartypants: {
 		dashes: 'oldschool'
