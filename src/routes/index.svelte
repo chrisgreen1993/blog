@@ -27,6 +27,10 @@
 <h1>chrisgreen.codes<BlinkingCaret /></h1>
 <p>
 	Hey there! I'm Chris, a software engineer based in Edinburgh.
+	<br />
+	These days I'm mostly writing JavaScript (React Native) and Clojure at <a href="https://hellorelish.com">Relish</a>.
+	<br />
+	As you can tell this site is pretty bare at the minute, but you can check out my <a href="https://github.com/chrisgreen1993">Github</a> or shoot me an <a href="mailto:chrisgreen1993@gmail.com">email</a> in the meantime.
 </p>
 
 {#if posts.length}
