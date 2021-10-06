@@ -41,6 +41,7 @@
 <style>
 	h1 {
 		color: var(--color-primary);
+		font-size: clamp(var(--text-lg), 5vw, var(--text-xxxl));
 	}
 
 	h2 {
