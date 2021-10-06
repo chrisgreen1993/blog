@@ -8,8 +8,6 @@ module.exports = {
 	smartypants: {
 		dashes: 'oldschool'
 	},
-	remarkPlugins: [
-		require('remark-abbr')
-	],
+	remarkPlugins: [require('remark-abbr')],
 	rehypePlugins: [require('rehype-slug')]
 };

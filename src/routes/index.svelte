@@ -1,5 +1,5 @@
 <script context="module">
-	import { removeExtension, formatISO8601 } from '$lib/utils'
+	import { removeExtension, formatISO8601 } from '$lib/utils';
 
 	export async function load() {
 		const posts = import.meta.globEager(`./*.svelte.md`);
@@ -16,7 +16,7 @@
 </script>
 
 <script>
-	import BlinkingCaret from '$lib/BlinkingCaret.svelte'
+	import BlinkingCaret from '$lib/BlinkingCaret.svelte';
 	export let posts;
 </script>
 
@@ -28,9 +28,12 @@
 <p>
 	Hey there! I'm Chris, a software engineer based in Edinburgh.
 	<br />
-	These days I'm mostly writing JavaScript (React Native) and Clojure at <a href="https://hellorelish.com">Relish</a>.
+	These days I'm mostly writing JavaScript (React Native) and Clojure at
+	<a href="https://hellorelish.com">Relish</a>.
 	<br />
-	As you can tell this site is pretty bare at the minute, but you can check out my <a href="https://github.com/chrisgreen1993">Github</a> or shoot me an <a href="mailto:chrisgreen1993@gmail.com">email</a> in the meantime.
+	As you can tell this site is pretty bare at the minute, but you can check out my
+	<a href="https://github.com/chrisgreen1993">Github</a>
+	or shoot me an <a href="mailto:chrisgreen1993@gmail.com">email</a> in the meantime.
 </p>
 
 {#if posts.length}

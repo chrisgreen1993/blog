@@ -1,10 +1,10 @@
 <script>
-	import { formatISO8601 } from '$lib/utils'
+	import { formatISO8601 } from '$lib/utils';
 
 	export let title;
 	export let date;
-	
-	const formattedDate = formatISO8601(date)
+
+	const formattedDate = formatISO8601(date);
 </script>
 
 <svelte:head>

@@ -1,7 +1,7 @@
 ---
-title: Markdown Test Page 
+title: Markdown Test Page
 date: 2021-02-02
-draft: true 
+draft: true
 ---
 
 - [Headings](#Headings)

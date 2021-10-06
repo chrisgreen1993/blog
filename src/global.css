@@ -87,8 +87,8 @@ img {
 	max-width: 100%;
 }
 
-
-ul, ol {
+ul,
+ol {
 	padding-left: var(--space-lg);
 }
 
