@@ -2,7 +2,7 @@
 
 My personal blog @ [chrisgreen.codes](https://chrisgreen.codes).
 
-Built with [SvelteKit](https://kit.svelte.dev/) & [mdsvex](https://mdsvex.com/) 
+Built with [SvelteKit](https://kit.svelte.dev/) & [mdsvex](https://mdsvex.com/)
 
 ## Developing
 
