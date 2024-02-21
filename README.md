@@ -4,6 +4,8 @@ My personal blog @ [chrisgreen.codes](https://chrisgreen.codes).
 
 Built with [SvelteKit](https://kit.svelte.dev/) & [mdsvex](https://mdsvex.com/)
 
+Dpeloyed on [Netlify](https://netlify.com)
+
 ## Developing
 
 ```bash

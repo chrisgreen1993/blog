@@ -25,20 +25,16 @@
 </svelte:head>
 
 <h1>chrisgreen.codes<BlinkingCaret /></h1>
-<p>Hey there! I'm Chris, a software engineer based in Edinburgh.</p>
-<p />
+<p>Hey there! I'm Chris, a full stack software engineer.</p>
 <p>
-	I've most recently been working with TypeScript and React at
-	<a href="https://typeform.com">Typeform</a>, but have experience with Clojure and React Native at
+	I've worked with with TypeScript and React at
+	<a href="https://typeform.com">Typeform</a>, and have experience with Clojure and React Native at
 	<a href="https://hellorelish.com">Relish</a>, as well as Ruby on Rails at
 	<a href="https://freeagent.com">FreeAgent</a>.
 </p>
+<p>I'm also open to work again after taking a year out to travel.</p>
 <p>
-	I'm currently taking a well earned break from work to travel and generally do whatever the heck I
-	want, but will be back at some point in 2023.
-</p>
-<p>
-	You can also check out my <a rel="external" href="cv.pdf">CV</a>, find me on
+	Check out my <a rel="external" href="cv.pdf">CV</a>, find me on
 	<a href="https://github.com/chrisgreen1993">Github</a>, or shoot me an
 	<a href="mailto:chrisgreen1993@gmail.com">email</a>.
 </p>
