@@ -25,7 +25,10 @@
 </svelte:head>
 
 <h1>chrisgreen.codes<BlinkingCaret /></h1>
-<p>Hey there! I'm Chris, a full stack software engineer.</p>
+<p>Hey there! I'm Chris, a software engineer specialising in web technologies.</p>
+<p>I bring 6+ years of experience, spanning both frontend and full-stack roles, with a track
+	record of leading projects, guiding technical direction, and building great products. I
+	thrive in fast-moving, cross-functional, data-driven teams.</p>
 <p>
 	I've worked with with TypeScript and React at
 	<a href="https://typeform.com">Typeform</a>, and have experience with Clojure and React Native at
