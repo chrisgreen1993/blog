@@ -30,7 +30,7 @@
 	record of leading projects, guiding technical direction, and building great products. I
 	thrive in fast-moving, cross-functional, data-driven teams.</p>
 <p>
-	I've worked with with TypeScript and React at
+	I've worked with TypeScript and React at
 	<a href="https://typeform.com">Typeform</a>, and have experience with Clojure and React Native at
 	<a href="https://hellorelish.com">Relish</a>, as well as Ruby on Rails at
 	<a href="https://freeagent.com">FreeAgent</a>.
