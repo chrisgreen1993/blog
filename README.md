@@ -6,9 +6,17 @@ Built with [SvelteKit](https://kit.svelte.dev/) & [mdsvex](https://mdsvex.com/)
 
 Dpeloyed on [Netlify](https://netlify.com)
 
-## Developing
+## Development
+
+Install [devbox](https://www.jetify.com/devbox) or just install node manually.
 
 ```bash
+git clone https://github.com/chrisgreen1993/blog.git
+
+# if using devbox
+devbox install
+devbox shell
+
 # install dependencies
 npm install
 
