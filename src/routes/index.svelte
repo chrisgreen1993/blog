@@ -31,15 +31,17 @@
 </p>
 <p>
 	I've worked with TypeScript and React at
-	<a href="https://typeform.com">Typeform</a>, and have experience with Clojure and React Native at
-	<a href="https://hellorelish.com">Relish</a>, as well as Ruby on Rails at
-	<a href="https://freeagent.com">FreeAgent</a>. I also run a little music discovery app called
-	<a href="https://listenlist.app">Listen List</a>.
+	<a target="_blank" href="https://typeform.com">Typeform</a>, and have experience with Clojure and
+	React Native at
+	<a target="_blank" href="https://hellorelish.com">Relish</a>, as well as Ruby on Rails at
+	<a target="_blank" href="https://freeagent.com">FreeAgent</a>. I also run a little music discovery
+	app called
+	<a target="_blank" href="https://listenlist.app">Listen List</a>.
 </p>
 <p>I'm also open to work again after taking a year out to travel.</p>
 <p>
 	Check out my <a rel="external" href="cv.pdf">CV</a>, find me on
-	<a href="https://github.com/chrisgreen1993">Github</a>, or shoot me an
+	<a target="_blank" href="https://github.com/chrisgreen1993">Github</a>, or shoot me an
 	<a href="mailto:chrisgreen1993@gmail.com">email</a>.
 </p>
 
