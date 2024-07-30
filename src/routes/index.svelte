@@ -26,7 +26,7 @@
 
 <h1>chrisgreen.codes<BlinkingCaret /></h1>
 <p>
-	Hey there! I'm Chris, a software engineer specialising in web technologies. I have over 6 years
+	Hey there! I'm Chris, a software engineer specialising in web technologies. I have over 7 years
 	experience, spanning both frontend and full-stack roles.
 </p>
 <p>
