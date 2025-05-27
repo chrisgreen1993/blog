@@ -26,22 +26,29 @@
 
 <h1>chrisgreen.codes<BlinkingCaret /></h1>
 <p>
-	Hey there! I'm Chris, a software engineer specialising in web technologies. I have over 7 years
+	Hey there! I'm Chris, a software engineer specialising in web technologies. I have over 8 years
 	experience, spanning both frontend and full-stack roles.
 </p>
+
 <p>
-	I've worked with TypeScript and React at
-	<a target="_blank" href="https://typeform.com">Typeform</a>, and have experience with Clojure and
-	React Native at
-	<a target="_blank" href="https://hellorelish.com">Relish</a>, as well as Ruby on Rails at
-	<a target="_blank" href="https://freeagent.com">FreeAgent</a>. I also run a little music discovery
-	app called
-	<a target="_blank" href="https://listenlist.app">Listen List</a>.
+	I'm currently working with TypeScript and React Native at
+	<a target="_blank" href="https://enlock.com">Enlock</a> to build a fully encrypted online workspace.
 </p>
-<p>I'm also open to work again after taking a year out to travel.</p>
 <p>
-	Check out my <a rel="external" href="cv.pdf">CV</a>, find me on
-	<a target="_blank" href="https://github.com/chrisgreen1993">Github</a>, or shoot me an
+	Previously I've worked with TypeScript and React at
+	<a target="_blank" href="https://typeform.com">Typeform</a>, and have experience with Clojure at
+	<a target="_blank" href="https://hellorelish.com">Relish</a>, as well as Ruby on Rails at
+	<a target="_blank" href="https://freeagent.com">FreeAgent</a>.
+</p>
+
+<p>
+	I also run a little music discovery app called
+	<a target="_blank" href="https://listenlist.app">Listen List</a>, and have a couple of other small
+	projects over on my <a target="_blank" href="https://github.com/chrisgreen1993">Github</a>.
+</p>
+
+<p>
+	Feel free to check out my <a rel="external" href="cv.pdf">CV</a>, or shoot me an
 	<a href="mailto:chrisgreen1993@gmail.com">email</a>.
 </p>
 
